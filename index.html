@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -13,237 +14,227 @@
     <link rel="stylesheet" href="css/theme/bonitasoft-white.css">
 
     <!-- for Font icons: -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="fontawesome-free-5.8.2-web/css/all.css" rel="stylesheet">
+    <!-- <script src="https://kit.fontawesome.com/24643a882b.js"></script> -->
+
 
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
 
     <!-- Printing and PDF exports -->
     <script>
-            var link = document.createElement( 'link' );
-            link.rel = 'stylesheet';
-            link.type = 'text/css';
-            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
     </script>
-    <style> .reveal i.fa { font-family:FontAwesome; font-style: normal; } </style>
+    <style>
+        .reveal i.fa {
+            font-family: FontAwesome;
+            font-style: normal;
+        }
+    </style>
 </head>
+
 <body>
-<section class="reveal">
-    <section class="slides">
+    <section class="reveal">
+        <section class="slides">
 
-        <section title="Section 1 title">
-            <div data-markdown>
-                # Presentation title
-            </div>
-        </section>
-        <section title="presentation speakers">
-            <h2>Who are we?</h2>
-            <p>Emmanuel Duchastenier</p>
-            <p>Laurent Leseigneur &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-twitter" aria-hidden="true"></i> @LLeseigneur</p>
-            <p>
-                <img src="images/logo_with_text_large.png" width="40%"/><br/>
-                <i class="fa fa-twitter" aria-hidden="true"></i> @bonitasoft
-            </p>
+            <section title="Section 1 title">
+                <div data-markdown>
+                    # L'artisanat logiciel
+                    ## un exemple chez Bonitasoft
+                </div>
+            </section>
+            <section title="presentation speakers">
+                <h2>Who am I?</h2>
+                <p>Emmanuel Duchastenier - R&D Developer</p>
+                <p><i class="fab fa-twitter"></i> <i class="fas fa-times" style="color: red"></i></p>
+                <p><i class="fab fa-facebook-square"></i> <i class="fas fa-times" style="color: red"></i>
+                </p>
+                <p><img src="images/logo_with_text_large.png" width="40%" /><br />
+                    <i class="fab fa-twitter"></i> @bonitasoft<br />
+                    <i class="fab fa-facebook-square"></i> facebook.com/bonitasoftbpm
+                </p>
 
-            <aside class="notes" data-markdown>
-                Introduce Bonitasoft and Bonita: BPM platform ...
-            </aside>
-        </section>
-        <section title="summary">
-            <h1>Summary</h1>
-            <h3 align="left"><i class="fa fa-book" aria-hidden="true"></i> Presentation of the context</h3>
-            <h3 align="left"><i class="fa fa-check-square" aria-hidden="true"></i> Use case 1</h3>
-            <h3 align="left"><i class="fa fa-refresh" aria-hidden="true"></i> How we did it</h3>
-            <aside class="notes" data-markdown>
-                We would like to introduce bla bla bla...
-            </aside>
-        </section>
-        <section title="glossaire">
-            <section>
-                <h1>Glossary</h1>
-                    <h3  class="fragment">BPMN</h3>
+                <aside class="notes" data-markdown>
+                    Introduce Bonitasoft and Bonita: BPM platform ...
+                </aside>
+            </section>
+            <section title="summary">
+                <h1>Summary</h1>
+                <h3 align="left"><i class="fas fa-book"></i> Presentation of the context</h3>
+                <h3 align="left"><i class="fas fa-check-square"></i> Use case 1</h3>
+                <h3 align="left"><i class="fas fa-sync-alt"></i> How we did it</h3>
+                <aside class="notes" data-markdown>
+                    We would like to introduce bla bla bla...
+                </aside>
+            </section>
+            <section title="glossaire">
+                <section>
+                    <h1>Glossary</h1>
+                    <h3 class="fragment">BPMN</h3>
                     <div class="fragment">
                         This text appears on click
                     </div>
 
-                <aside class="notes">
-                    Here go your presenter side notes....
+                    <aside class="notes">
+                        Here go your presenter side notes....
+                    </aside>
+                </section>
+                <section>
+                    <h1>Glossary</h1>
+                    <h2>I-BPMN</h3>
+                        <div class="fragment" data-markdown>
+                            ### this section should appear ...
+                        </div>
+                        <div class="fragment" data-markdown>
+                            ### only on click ...
+                        </div>
+
+                        <aside class="notes">
+                            Hands-up poll...
+                        </aside>
+                </section>
+                <section>
+                    <h1>Glossary</h1>
+                    <h3>Markdown</h3>
+                    <div class="fragment" data-markdown>
+                        Text format with lightweight style formatting:
+                        ```markdown
+                        An h1 header
+                        ============
+
+                        Paragraphs are separated by a blank line.
+
+                        2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
+                        look like:
+
+                        * this one
+                        * that one
+                        * the other one
+                        ```
+                    </div>
+
+                    <aside class="notes">
+                    </aside>
+                </section>
+            </section>
+
+            <section title="community">
+                <div data-markdown>
+                    # A Vibrant Community
+                    ![community](images/community.png)
+                </div>
+                <aside class="notes" data-markdown>
                 </aside>
             </section>
-            <section>
-                <h1>Glossary</h1>
-                <h2>I-BPMN</h3>
-                <div class="fragment" data-markdown>
-                    ### this section should appear ...
-                </div>
-                <div class="fragment" data-markdown>
-                    ### only on click ...
-                </div>
 
-                <aside class="notes">
-                    Hands-up poll...
+            <section title="Bonitasoft documentation website">
+                <section>
+                    <h2><i class="fas fa-book"></i> Context</h2>
+                </section>
+                <section>
+                    <div data-markdown>
+                        ## Problematic
+                        * Rewrite our Continuous Integration environments (CI)
+                        * bla
+                        * bla bla
+                        * bla bla bla
+                    </div>
+                    <aside class="notes" data-markdown>
+                    </aside>
+                </section>
+            </section>
+
+            <section title="conclusion">
+                <section>
+                    <h2><i class="fas fa-balance-scale"></i> Conclusion</h2>
+                    <aside class="notes" data-markdown>
+
+                    </aside>
+                </section>
+                <section align="left">
+                    <h2><i class="fas fa-sign-language"></i> Well-crafted software</h2>
+                    <h2><i class="fas fa-chart-line"></i> Steadily adding value</h2>
+                    <h2><i class="fas fa-user-friends"></i> A community of professionals</h2>
+                    <aside class="notes" data-markdown>
+                    </aside>
+                </section>
+            </section>
+
+            <section title="Merci">
+                <h2>Thanks for your attention</h2>
+
+                <p><img src="images/logo_with_text.png" />
+                    <p><i class="far fa-handshake"></i> bonitasoft.com/career</p>
+                    <img src="images/thank_you.png" width="673" height="233" /><br />
+                    <aside class="notes" data-markdown>
+                    </aside>
+            </section>
+            <section title="Q&A">
+                <div data-markdown>
+                    ### Any questions?
+                    ![questions?](images/questions.jpg)
+                </div>
+                <aside class="notes" data-markdown>
+                    If you have any question... / would like to exchange...
                 </aside>
             </section>
-            <section>
-                <h1>Glossary</h1>
-                <h3>Markdown</h3>
-                <div class="fragment" data-markdown>
-                    Text format with lightweight style formatting:
-                    ```markdown
-                    An h1 header
-                    ============
 
-                    Paragraphs are separated by a blank line.
 
-                    2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-                    look like:
-
-                    * this one
-                    * that one
-                    * the other one
-                    ```
+            <section title="section title">
+                <div data-markdown>
+                    # Title
+                    ## Title 2
+                    ### Title 3
+                    ![some image](images/)
                 </div>
-
-                <aside class="notes">
+                <aside class="notes" data-markdown>
                 </aside>
             </section>
-        </section>
 
-        <section title="community">
-            <div data-markdown>
-            # A Vibrant Community
-            ![community](images/community.png)
-            </div>
-            <aside class="notes" data-markdown>
-            </aside>
-        </section>
-
-        <section title="enterprise">
-            <div data-markdown>
-            # Our Partners / Customers
-            ![community](images/enterprise.png)
-            </div>
-            <aside class="notes" data-markdown>
-            </aside>
-        </section>
-
-        <section title="Bonitasoft documentation website">
-            <section>
-                <h2><i class="fa fa-book" aria-hidden="true"></i> Context</h2>
-            </section>
             <section>
                 <div data-markdown>
-                    ## Details
-                    * bla
-                    * bla bla
-                    * bla bla bla
+                    Template section ready to copy-paste
                 </div>
                 <aside class="notes" data-markdown>
                 </aside>
             </section>
+
+
         </section>
-
-        <section title="conclusion">
-            <section>
-                <h2><i class="fa fa-balance-scale" aria-hidden="true"></i> Conclusion</h2>
-                <aside class="notes" data-markdown>
-                    
-                </aside>
-            </section>
-            <section>
-                <div data-markdown>
-                    ## Things to improve
-
-                    * configuration
-                    * feedbacks
-                </div>
-                <aside class="notes" data-markdown>
-                </aside>
-            </section>
-        </section>
-
-        <section title="References">
-            <div data-markdown>
-                ## References
-
-                * Bonita official documentation website: http://documentation.bonitasoft.com
-                * Official [Bonita docker image](https://hub.docker.com/_/bonita/)
-                * These [presentation slides](https://educhastenier.github.io/bonita-presentation-js-template/): https://github.com/educhastenier/bonita-presentation-js-template
-            </div>
-            <aside class="notes" data-markdown>
-            </aside>
-        </section>
-
-        <section title="Merci">
-            <h2>Thanks for your attention</h2>
-            <br/><br/><br/><br/>
-            <img src="images/logo_with_text.png"/><br/>
-            <img src="images/thank_you.png" width="673" height="233" /><br/>
-            <aside class="notes" data-markdown>
-            </aside>
-        </section>
-        <section title="Q&A">
-            <div data-markdown>
-            ### Any questions?
-            ![questions?](images/questions.jpg)
-            </div>
-            <aside class="notes" data-markdown>
-                If you have any question... / would like to exchange...
-            </aside>
-        </section>
-
-
-        <section title="section title">
-            <div data-markdown>
-            # Title
-            ## Title 2
-            ### Title 3
-            ![some image](images/my_image.svg)
-            </div>
-            <aside class="notes" data-markdown>
-            </aside>
-        </section>
-
-        <section>
-            <div data-markdown>
-                Template section ready to copy-paste
-            </div>
-            <aside class="notes" data-markdown>
-            </aside>
-        </section>
-
 
     </section>
 
-</section>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
 
-<script src="lib/js/head.min.js"></script>
-<script src="js/reveal.js"></script>
+    <script>
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            history: true,
 
-<script>
-            // More info https://github.com/hakimel/reveal.js#configuration
-            Reveal.initialize({
-                history: true,
+            // custom Bonitasoft:
+            // width: "70%",
+            // height: "70%",
+            // margin: 0,
+            // minScale: 1,
+            // maxScale: 1,
+            // // to autoscroll every 10s, with a spinning counter and a play / pause button:
+            // autoSlide: 10000,
+            // :custom Bonitasoft
 
-                // custom Bonitasoft:
-                // width: "70%",
-                // height: "70%",
-                // margin: 0,
-                // minScale: 1,
-                // maxScale: 1,
-                // // to autoscroll every 10s, with a spinning counter and a play / pause button:
-                // autoSlide: 10000,
-                // :custom Bonitasoft
-
-                // More info https://github.com/hakimel/reveal.js#dependencies
-                dependencies: [
-                    { src: 'plugin/markdown/marked.js' },
-                    { src: 'plugin/markdown/markdown.js' },
-                    { src: 'plugin/notes/notes.js', async: true },
-                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-                ]
-            });
-</script>
+            // More info https://github.com/hakimel/reveal.js#dependencies
+            dependencies: [
+                { src: 'plugin/markdown/marked.js' },
+                { src: 'plugin/markdown/markdown.js' },
+                { src: 'plugin/notes/notes.js', async: true },
+                { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+            ]
+        });
+    </script>
 </body>
+
 </html>

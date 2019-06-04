@@ -1,0 +1,28 @@
+Constat que maintenir et faire évoluer la CI était difficile et pénible => ownership sur nos outils, s'équiper d'outils efficaces apporte de la valeur aux développeurs, donc au produit, donc à Bonita
+Un groupe de volontaires s'est constitué pour reprendre le contrôle de nos environnements de CI => des gens motivés par cette problématique donc volontaires pour que le projet avance. Nous sommes nos propres utilisateurs, donc boucle de feedback très courte
+Choix de la gestion de nos outils pour ce projet de refonte de la CI: efficacité, légèreté, affinité (docker, gradle, repo git dédié, Jira allégé) => pragmatisme (nos outils sont à notre service et pas le contraire), valeur rajoutée de manière incrémental, petites itération
+On se sent propriétaires du code, de la qualité de ce qu'on a produit => fierté de démontrer tous les 15 jours l'aboutissement et les nouveautés
+La motivation et volonté de bien faire + liberté dans notre rythme d'implémentation nous a fait prendre le temps d'investiguer les outils, frameworks, technos => on a pu devenir "experts" sur le sujets
+Revue de code sur des Pull Request Github, en commun, sur le même ordi, lors de points de synchronisation hebdomadaire (Mob Programming sans le savoir) => tout le monde partage le même niveau de connaissance sur le code, on monte tous en compétences, on reduit les SPOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Well-crafted software
+Steadily adding value
+A community of professionals
