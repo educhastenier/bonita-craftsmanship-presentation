@@ -1,13 +1,17 @@
-Constat que maintenir et faire évoluer la CI était difficile et pénible => ownership sur nos outils, s'équiper d'outils efficaces apporte de la valeur aux développeurs, donc au produit, donc à Bonita
-Un groupe de volontaires s'est constitué pour reprendre le contrôle de nos environnements de CI => des gens motivés par cette problématique donc volontaires pour que le projet avance. Nous sommes nos propres utilisateurs, donc boucle de feedback très courte
+Constat que maintenir et faire évoluer la CI était difficile et pénible => on prend l'ownership sur nos outils, s'équiper d'outils efficaces apporte de la valeur aux développeurs, donc au produit, donc à Bonita
+Un groupe de volontaires s'est constitué pour reprendre le contrôle de nos environnements de CI => des gens motivés par cette problématique donc volontaires pour que le projet avance.
+Nous sommes nos propres utilisateurs, donc boucle de feedback très courte => petites itérations qui apporte de la valeur, régulièrement.
 Choix de la gestion de nos outils pour ce projet de refonte de la CI: efficacité, légèreté, affinité (docker, gradle, repo git dédié, Jira allégé) => pragmatisme (nos outils sont à notre service et pas le contraire), valeur rajoutée de manière incrémental, petites itération
 On se sent propriétaires du code, de la qualité de ce qu'on a produit => fierté de démontrer tous les 15 jours l'aboutissement et les nouveautés
 La motivation et volonté de bien faire + liberté dans notre rythme d'implémentation nous a fait prendre le temps d'investiguer les outils, frameworks, technos => on a pu devenir "experts" sur le sujets
-Revue de code sur des Pull Request Github, en commun, sur le même ordi, lors de points de synchronisation hebdomadaire (Mob Programming sans le savoir) => tout le monde partage le même niveau de connaissance sur le code, on monte tous en compétences, on reduit les SPOC
+Revue de code sur des Pull Request Github, en commun, sur le même ordi, lors de points de synchronisation hebdomadaire (Mob Programming sans le savoir) + merge ensemble, quand un concensus est trouvé => tout le monde partage le même niveau de connaissance sur le code, on monte tous en compétences, on reduit les SPOC
+Contributions sur la base du volontariat => motivation reste intacte, implication en fonction des préférences de chacun /!\ Bémol: sur certaines périodes peu d'avancement.
 
+Changer un outil, un framework, du code qui était valide il y a 6 mois et qui ne l'est plus aujourd'hui est NORMAL! Ca fait partie de notre travail quotidien et ne doit pas être repoussé à "quand on aura le temps". Sinon, c'est de la dette technique.
 
-
-
+La base du volontariat est clé. Parachuter une personne non volontaire peut faire plus de mal que rester à un de moins.
+Niveau d'implication inégal entre participants est normal et doit être accepté.
+Il faut avoir la confiance de ses supérieurs. Faites pressions sur eux pour qu'ils vous laissent les mains libres. Ils vous ont recrutés, ils ont donc confiance en vous. (Sinon ça veut dire qu'il n'ont pas confiance en eux et dans leur recrutement)
 
 
 
