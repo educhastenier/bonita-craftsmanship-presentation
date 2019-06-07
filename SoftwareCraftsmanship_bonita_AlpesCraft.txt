@@ -1,38 +1,42 @@
-Constat que maintenir et faire évoluer la CI était difficile et pénible => on prend l'ownership sur nos outils, s'équiper d'outils efficaces apporte de la valeur aux développeurs, donc au produit, donc à Bonita
-Un groupe de volontaires s'est constitué pour reprendre le contrôle de nos environnements de CI => des gens motivés par cette problématique donc volontaires pour que le projet avance.
-Nous sommes nos propres utilisateurs, donc boucle de feedback très courte => petites itérations qui apporte de la valeur, régulièrement.
-Choix de la gestion de nos outils pour ce projet de refonte de la CI: efficacité, légèreté, affinité (docker, gradle, repo git dédié, Jira allégé) => pragmatisme (nos outils sont à notre service et pas le contraire), valeur rajoutée de manière incrémental, petites itération
+Contexte:
+On n'est pas venus à l'artisanat logiciel du jour au lendemain. Ca s'est fait de manière empirique. Il nous a fallu des années pour mettre en place des petits actions concrètes, au fur et à mesure.
+
+Laissez-moi vous présenter un exemple concret:
+En réaction à une situation intenable:
+On est partis du constat que maintenir et faire évoluer la CI était difficile et pénible, on dépendait d'un Devops qui avait la connaissance => on décide de prendre l'ownership sur nos outils, de s'équiper d'outils efficaces qui apportent de la valeur aux développeurs, donc au produit, donc à la boite, Bonitasoft.
+
+Un groupe de 5 volontaires s'est constitué pour reprendre le contrôle de nos environnements de CI => des gens motivés par cette problématique donc volontaires pour que le projet avance.
+Nous sommes nos propres utilisateurs de la CI, donc boucles de feedback très courtes => petites itérations qui apporte de la valeur, régulièrement.
+Choix de la gestion de nos outils pour ce projet de refonte de la CI: efficacité, légèreté, affinité (docker, gradle, repo git dédié, Jira allégé) => pragmatisme (nos outils sont à notre service et pas le contraire), valeur rajoutée de manière incrémental, petites itération.
 On se sent propriétaires du code, de la qualité de ce qu'on a produit => fierté de démontrer tous les 15 jours l'aboutissement et les nouveautés
-La motivation et volonté de bien faire + liberté dans notre rythme d'implémentation nous a fait prendre le temps d'investiguer les outils, frameworks, technos => on a pu devenir "experts" sur le sujets
-Revue de code sur des Pull Request Github, en commun, sur le même ordi, lors de points de synchronisation hebdomadaire (Mob Programming sans le savoir) + merge ensemble, quand un concensus est trouvé => tout le monde partage le même niveau de connaissance sur le code, on monte tous en compétences, on reduit les SPOK
+La motivation et volonté de bien faire + liberté dans notre rythme d'implémentation nous a fait prendre le temps d'investiguer les outils, frameworks, technos => on a pu devenir "experts" sur le sujet.
+Revue de code sur des Pull Request Github, en commun, sur le même ordi, lors de points de synchronisation hebdomadaire (Mob Programming sans le savoir) + merge ensemble, quand un concensus est trouvé => tout le monde partage le même niveau de connaissance sur le code, on monte tous en compétences, on reduit les SPOK.
 Contributions sur la base du volontariat => motivation reste intacte, implication en fonction des préférences de chacun /!\ Bémol: sur certaines périodes peu d'avancement.
 
 On rechallenge le besoin pour chaque job qu'on migre / ou pas => pragmatisme de ne réécrire que ce dont on se sert et qui nous semble apporter de la valeur.
 Pour chaque job migré, on supprime l'existant sur l'ancienne CI, permettant de bien suivre où on en est.
 
+Constante remise en question des choix passés:
 Changer un outil, un framework, du code qui était valide il y a 6 mois et qui ne l'est plus aujourd'hui est NORMAL! Ca fait partie de notre travail quotidien et ne doit pas être repoussé à "quand on aura le temps". Sinon, c'est de la dette technique.
 
 
 Difficultés / Bémols:
 Maintenance en // des 2 CIs: pas l'idéal, mais nécessaire pour la transition.
 Sur certaines périodes peu d'avancement.
+From scratch, ça ne s'applique pas à tous les cas, mais à des projets au périmètre limité.
+
 
 Apprentissages sur les autres projets / développements:
-On ne demande plus la "permission" de retoquer du code. Eponger la dette technique est normal chaque fois qu'on doit toucher à du code qui n'est pas approprié.
+On ne demande plus la "permission" de retoquer du code. Eponger la dette technique est normal chaque fois qu'on doit toucher à du code qui n'est plus approprié.
 On fait plus de pair prg / pair reviewing qu'avant.
 Nous laisser les mains libres, ça paye.
 D'autres équipes s'y sont mis, sur de petits projets parallèles. (Julien, du feedback?)
 
+
 Conclusion:
 La base du volontariat est clé. Parachuter une personne non-volontaire peut faire plus de mal que rester à une personne de moins.
 Un niveau d'implication inégal entre participants est normal et doit être accepté.
-Il faut avoir la confiance de ses supérieurs. Faites pression sur eux pour qu'ils vous laissent les mains libres. Ils vous ont recrutés, ils ont donc confiance en vous. (Sinon ça veut dire qu'ils n'ont pas confiance dans le recrutement qu'ils ont fait)
-
-
-
-
-
-Qu'est-ce que ça a changé pour le reste de la boite ?
+Il faut avoir la confiance de ses supérieurs. Faites pression sur eux pour qu'ils vous laissent les mains libres. Ils vous ont recrutés, ils ont donc confiance en vous. (Sinon ça veut dire qu'ils n'ont pas confiance dans le recrutement qu'ils ont fait). Invitez-les à venir observer (sans intervenir) comment ça se passe, ça finira de les convaincre.
 
 
 
@@ -40,3 +44,15 @@ Well-crafted software
 Steadily adding value
 A community of professionals
 
+
+Titre: Comment une CI mourrante nous a amené au goût du travail bien fait / à l'artisanat logiciel.
+
+
+
+from scratch?
+==> recul pkoi point depart. C'est pas venu tout de suite. En réaction à une situation intenable.
+
+CD?
+==> existant //
+
+/= quotidien?
