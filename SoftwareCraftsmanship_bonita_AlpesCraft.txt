@@ -4,29 +4,39 @@ Nous sommes nos propres utilisateurs, donc boucle de feedback très courte => pe
 Choix de la gestion de nos outils pour ce projet de refonte de la CI: efficacité, légèreté, affinité (docker, gradle, repo git dédié, Jira allégé) => pragmatisme (nos outils sont à notre service et pas le contraire), valeur rajoutée de manière incrémental, petites itération
 On se sent propriétaires du code, de la qualité de ce qu'on a produit => fierté de démontrer tous les 15 jours l'aboutissement et les nouveautés
 La motivation et volonté de bien faire + liberté dans notre rythme d'implémentation nous a fait prendre le temps d'investiguer les outils, frameworks, technos => on a pu devenir "experts" sur le sujets
-Revue de code sur des Pull Request Github, en commun, sur le même ordi, lors de points de synchronisation hebdomadaire (Mob Programming sans le savoir) + merge ensemble, quand un concensus est trouvé => tout le monde partage le même niveau de connaissance sur le code, on monte tous en compétences, on reduit les SPOC
+Revue de code sur des Pull Request Github, en commun, sur le même ordi, lors de points de synchronisation hebdomadaire (Mob Programming sans le savoir) + merge ensemble, quand un concensus est trouvé => tout le monde partage le même niveau de connaissance sur le code, on monte tous en compétences, on reduit les SPOK
 Contributions sur la base du volontariat => motivation reste intacte, implication en fonction des préférences de chacun /!\ Bémol: sur certaines périodes peu d'avancement.
+
+On rechallenge le besoin pour chaque job qu'on migre / ou pas => pragmatisme de ne réécrire que ce dont on se sert et qui nous semble apporter de la valeur.
+Pour chaque job migré, on supprime l'existant sur l'ancienne CI, permettant de bien suivre où on en est.
 
 Changer un outil, un framework, du code qui était valide il y a 6 mois et qui ne l'est plus aujourd'hui est NORMAL! Ca fait partie de notre travail quotidien et ne doit pas être repoussé à "quand on aura le temps". Sinon, c'est de la dette technique.
 
-La base du volontariat est clé. Parachuter une personne non volontaire peut faire plus de mal que rester à un de moins.
-Niveau d'implication inégal entre participants est normal et doit être accepté.
-Il faut avoir la confiance de ses supérieurs. Faites pressions sur eux pour qu'ils vous laissent les mains libres. Ils vous ont recrutés, ils ont donc confiance en vous. (Sinon ça veut dire qu'il n'ont pas confiance en eux et dans leur recrutement)
+
+Difficultés / Bémols:
+Maintenance en // des 2 CIs: pas l'idéal, mais nécessaire pour la transition.
+Sur certaines périodes peu d'avancement.
+
+Apprentissages sur les autres projets / développements:
+On ne demande plus la "permission" de retoquer du code. Eponger la dette technique est normal chaque fois qu'on doit toucher à du code qui n'est pas approprié.
+On fait plus de pair prg / pair reviewing qu'avant.
+Nous laisser les mains libres, ça paye.
+D'autres équipes s'y sont mis, sur de petits projets parallèles. (Julien, du feedback?)
+
+Conclusion:
+La base du volontariat est clé. Parachuter une personne non-volontaire peut faire plus de mal que rester à une personne de moins.
+Un niveau d'implication inégal entre participants est normal et doit être accepté.
+Il faut avoir la confiance de ses supérieurs. Faites pression sur eux pour qu'ils vous laissent les mains libres. Ils vous ont recrutés, ils ont donc confiance en vous. (Sinon ça veut dire qu'ils n'ont pas confiance dans le recrutement qu'ils ont fait)
 
 
 
 
 
-
-
-
-
-
-
-Qu'est-ce que ça a changé pour le reste de la boite
+Qu'est-ce que ça a changé pour le reste de la boite ?
 
 
 
 Well-crafted software
 Steadily adding value
 A community of professionals
+
