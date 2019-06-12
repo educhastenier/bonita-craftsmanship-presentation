@@ -46,7 +46,7 @@ Apprentissages sur les autres projets / développements:
 On ne demande plus la "permission" de retoquer du code. Eponger la dette technique est normal chaque fois qu'on doit toucher à du code qui n'est plus approprié.
 On fait plus de pair prg / pair reviewing qu'avant.
 Nous laisser les mains libres, ça paye.
-( D'autres équipes s'y sont mis, sur de petits projets parallèles. (Julien, du feedback?) )
+( D'autres équipes s'y sont mis, sur de petits projets parallèles. )
 
 
 Conclusion:

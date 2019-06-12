@@ -7,8 +7,7 @@
 
     <meta name="author" content="Emmanuel Duchastenier">
 
-
-    <title>Bonitasoft presentation template</title>
+    <title>Bonitasoft - Software Craftsmanship</title>
 
     <link rel="stylesheet" href="css/reveal.css">
     <link rel="stylesheet" href="css/theme/bonitasoft-white.css">
@@ -16,7 +15,6 @@
     <!-- for Font icons: -->
     <link href="fontawesome/css/all.css" rel="stylesheet">
     <!-- <script src="https://kit.fontawesome.com/24643a882b.js"></script> -->
-
 
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
@@ -43,38 +41,134 @@
 
         <section title="Section 1 title">
             <div data-markdown>
-                # Comment une CI mourrante nous a mené à l'artisanat logiciel
+                # Laissez les artisans faire leur travail...
             </div>
             <aside class="notes" data-markdown>
                 On n'est pas venus à l'artisanat logiciel du jour au lendemain. Ca s'est fait de manière empirique.
                 Il nous a fallu des années pour mettre en place des petits actions concrètes, au fur et à mesure.
             </aside>
         </section>
-        <section title="presentation speakers">
-            <h2>Who am I?</h2>
-            <p>Emmanuel Duchastenier - R&D Developer</p>
-            <p><i class="fab fa-twitter"></i> <i class="fas fa-times" style="color: red"></i></p>
-            <p><i class="fab fa-facebook-square"></i> <i class="fas fa-times" style="color: red"></i>
-            </p>
-            <p><img src="images/logo_with_text_large.png" width="40%"/><br/>
-                <i class="fab fa-twitter"></i> @bonitasoft<br/>
-                <i class="fab fa-facebook-square"></i> facebook.com/bonitasoftbpm
-            </p>
+        <!--        <section title="summary">-->
+        <!--            <h1><i class="fas fa-book"></i> Sommaire</h1>-->
+        <!--            <h3 align="left"><i class="fas fa-band-aid"></i> Une CI douloureuse</h3>-->
+        <!--            <h3 align="left"><i class="fas fa-check-square"></i> Actions menées</h3>-->
+        <!--            &lt;!&ndash;            <h3 align="left"><i class="fas fa-smile-wink"></i> Pourquoi c'est bien</h3>&ndash;&gt;-->
+        <!--            <h3 align="left"><i class="fas fa-forward"></i> Ce que ça a changé</h3>-->
+        <!--            <h3 align="left"><i class="fas fa-highlighter"></i> A retenir</h3>-->
+        <!--            <aside class="notes" data-markdown>-->
+        <!--                4. Qu'est-ce que ça a changé dans notre approche du dév au quotidien-->
+        <!--            </aside>-->
+        <!--        </section>-->
 
+        <section title="Problématique">
+            <h2><i class="fas fa-book"></i> Problématique</h2>
+            <div data-markdown align="left">
+                Avoir un environnement d'Intégration Continue:
+                * maintenable
+                * claire
+                * agréable à utiliser
+            </div>
             <aside class="notes" data-markdown>
-                Introduce yourself in one sentence, no more.
+                Point de départ: situation inconfortable
             </aside>
         </section>
-        <section title="summary">
-            <h1>Sommaire</h1>
-            <h3 align="left"><i class="fas fa-book"></i> Présentation du contexte</h3>
-            <h3 align="left"><i class="fas fa-check-square"></i> Mise en place</h3>
-            <h3 align="left"><i class="fas fa-smile-wink"></i> Pourquoi c'est bien</h3>
-            <h3 align="left"><i class="fas fa-forward"></i> Et maintenant...</h3>
+
+        <section title="Contexte">
+            <h2><i class="fas fa-check-square"></i> Actions menées</h2>
+            <div class="fragment" data-markdown align="left">
+                * groupe de volontaires de la R&D auto-constitué
+            </div>
+            <div class="fragment" data-markdown align="left">
+                * auto-gestion de nos outils et technologies
+            </div>
+            <div class="fragment" data-markdown align="left">
+                * propriétaires du code, de la qualité de ce qu'on a produit
+            </div>
+            <div class="fragment" data-markdown align="left">
+                * motivation et volonté de bien faire
+            </div>
+            <div class="fragment" data-markdown align="left">
+                * Revue de code des PR en commun
+            </div>
             <aside class="notes" data-markdown>
-                4. Qu'est-ce que ça a changé dans notre approche du dév au quotidien
+                * gens motivés par cette problématique, volontaires pour projet avance
+                * nos outils sont à notre service et pas le contraire, petites itérations => valeur
+                * fiers de démontrer tous les 15 jours l'aboutissement au reste de la R&D
+                * on prend le temps de devenir "experts" sur le sujet
+                * même niveau de connaissance sur le code, on montée en compétences, reduit SPOK
             </aside>
         </section>
+
+        <section title="Ce que ça a changé">
+            <h2><i class="fas fa-forward"></i> Ce que ça a changé</h2>
+            <div data-markdown>
+                * Liberté de retoquer du code
+                * Plus de pair prg / pair reviewing
+                * Nous laisser les mains libres, ça paye
+            </div>
+            <aside class="notes" data-markdown>
+                * On ne demande plus la permission de refactorer du code
+            </aside>
+        </section>
+
+        <section title="conclusion">
+            <section>
+                <h2><i class="fas fa-highlighter"></i> A retenir</h2>
+                <div data-markdown align="left">
+                    Réunissez les conditions pour que l'artisanat logiciel s'exprime.
+
+                    Les équipes auto-gérées en sont une possibilité.
+
+                    <!--                    Mener à bien un projet au périmètre bien défini:-->
+                    <!--                    * Autonomie des outils, méthodos, choix d'implémentation-->
+                    <!--                    * Confiance en la capacité des développeurs à se concentrer sur la valeur-->
+                </div>
+                <aside class="notes" data-markdown>
+                    L'artisanat logiciel: bonnes pratiques
+
+                    Pour en profiter, réunissez les conditions pour qu'elles s'expriment.
+
+                    Les équipes auto-gérées en sont une possibilité
+
+                    La créativité des développeurs va pouvoir s'exprimer (dans le bon sens du terme)
+                </aside>
+            </section>
+
+        </section>
+
+        <section title="Merci">
+            <h2>Merci pour votre attention</h2>
+
+            <div style="float: left;">
+                <p><img src="images/logo_with_text.png"/></p>
+                <p><i class="far fa-handshake"></i> bonitasoft.com/career</p>
+                <img src="images/gptw.png" width="140" align="left"/>
+            </div>
+            <div style="float: right; border: 1px black solid; padding: 15px">
+                <p>Emmanuel Duchastenier</p>
+                <p align="center">Développeur R&D</p>
+                <p><i class="fab fa-twitter"></i> <i class="fas fa-times" style="color: red"></i></p>
+                <p><i class="fab fa-facebook-square"></i> <i class="fas fa-times" style="color: red"></i>
+                </p>
+            </div>
+            <aside class="notes" data-markdown>
+                Bonne conférence !
+            </aside>
+            <!--            <p><img src="images/logo_with_text_large.png" width="40%"/><br/>-->
+            <!--                <i class="fab fa-twitter"></i> @bonitasoft<br/>-->
+            <!--                <i class="fab fa-facebook-square"></i> facebook.com/bonitasoftbpm-->
+            <!--            </p>-->
+        </section>
+
+        <section title="bémols">
+            <h3><i class="fas fa-car-crash"></i> Bémols</h3>
+            <div data-markdown align="left">
+                * Maintenance en // des 2 CIs: pas l'idéal, mais nécessaire pour la transition
+                * Sur certaines périodes peu d'avancement
+                * From scratch, ça ne s'applique pas à tous les cas, mais à des projets au périmètre limité
+            </div>
+        </section>
+
         <!--        <section title="glossaire">-->
         <!--            <section>-->
         <!--                <h1>Glossary</h1>-->
@@ -126,68 +220,6 @@
         <!--            </section>-->
         <!--        </section>-->
 
-        <section title="Contexte">
-            <section>
-                <h2><i class="fas fa-book"></i> Contexte</h2>
-            </section>
-            <section>
-                <div data-markdown>
-                    ## Problématique
-                    * Avoir une CI maintenable / claire / agréable à utiliser
-                    * (lobbying to our management to have time for it)
-                </div>
-                <aside class="notes" data-markdown>
-                </aside>
-            </section>
-        </section>
-
-        <section title="conclusion">
-            <section>
-                <h2><i class="fas fa-balance-scale"></i> A retenir</h2>
-                <div data-markdown align="left">
-                    Mener à bien un projet au périmètre bien défini:
-                    * Autonomie des outils, méthodos, choix d'implémentation
-                    * Confiance en la capacité des développeurs à se concentrer sur la valeur
-                </div>
-                <aside class="notes" data-markdown>
-
-                </aside>
-            </section>
-            <section align="left">
-                <h2><i class="fas fa-sign-language"></i> Well-crafted software</h2>
-                <h2><i class="fas fa-chart-line"></i> Steadily adding value</h2>
-                <h2><i class="fas fa-user-friends"></i> A community of professionals</h2>
-                <aside class="notes" data-markdown>
-                </aside>
-            </section>
-            <section align="left">
-                <h2><i class="fas fa-handshake"></i> Productive partnerships</h2>
-                <aside class="notes" data-markdown>
-                </aside>
-            </section>
-        </section>
-
-        <section title="Merci">
-            <h2>Thanks for your attention</h2>
-
-            <p><img src="images/logo_with_text.png"/>
-            <p><i class="far fa-handshake"></i> bonitasoft.com/career</p>
-            <img src="images/gptw.png" width="140"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="images/thank_you.png" width="673" height="233"/><br/>
-            <aside class="notes" data-markdown>
-            </aside>
-        </section>
-        <section title="Q&A">
-            <div data-markdown>
-                ### Any questions?
-                ![questions?](images/questions.jpg)
-            </div>
-            <aside class="notes" data-markdown>
-                If you have any question... / would like to exchange...
-            </aside>
-        </section>
-
-
         <!--        <section title="section title">-->
         <!--            <div data-markdown>-->
         <!--                # Title-->
@@ -203,6 +235,31 @@
         <!--            <div data-markdown>-->
         <!--                Template section ready to copy-paste-->
         <!--            </div>-->
+        <!--            <aside class="notes" data-markdown>-->
+        <!--            </aside>-->
+        <!--        </section>-->
+
+
+        <!--        <section align="left">-->
+        <!--            <h1>Software Craftsmanship</h1>-->
+        <!--            <h2><i class="fas fa-sign-language"></i> Well-crafted software</h2>-->
+        <!--            <h2><i class="fas fa-chart-line"></i> Steadily adding value</h2>-->
+        <!--            <h2><i class="fas fa-user-friends"></i> A community of professionals</h2>-->
+        <!--            <div class="fragment">-->
+        <!--                <h2><i class="fas fa-handshake"></i> Productive partnerships</h2>-->
+        <!--            </div>-->
+        <!--            <aside class="notes" data-markdown>-->
+        <!--            </aside>-->
+        <!--        </section>-->
+        <!--        <section align="left">-->
+        <!--            <h1>L'artisanat logiciel</h1>-->
+        <!--            <h2><i class="fas fa-sign-language"></i> des logiciels bien conçus</h2>-->
+        <!--            <h2><i class="fas fa-chart-line"></i> l'ajout constant de la valeur</h2>-->
+        <!--            <h2><i class="fas fa-user-friends"></i> une communauté de professionnels</h2>-->
+        <!--            <div class="fragment">-->
+        <!--                <h2><i class="fas fa-handshake"></i> des partenariats productifs</h2>-->
+        <!--            </div>-->
+
         <!--            <aside class="notes" data-markdown>-->
         <!--            </aside>-->
         <!--        </section>-->
