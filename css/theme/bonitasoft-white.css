@@ -79,7 +79,8 @@ img.width50 {
   border-top-color: #E31837; }
   .reveal .slides h1, .reveal .slides h2, .reveal .slides h3, .reveal .slides h4, .reveal .slides h5, .reveal .slides h6 {
     margin: 0 0 20px 0;
-    color: #0C334E;
+    color: #D03;
+    /*color: #0C334E;*/
     /*text-align: center;*/
     text-transform: none; }
 

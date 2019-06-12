@@ -40,9 +40,8 @@
     <section class="slides">
 
         <section title="Section 1 title">
-            <div data-markdown>
-                # Laissez les artisans faire leur travail...
-            </div>
+            <h1><span style="color: #0C334E;"> Laissez les</span> artisans <span style="color: #0C334E;">faire leur travail</span>...
+            </h1>
             <aside class="notes" data-markdown>
                 On n'est pas venus à l'artisanat logiciel du jour au lendemain. Ca s'est fait de manière empirique.
                 Il nous a fallu des années pour mettre en place des petits actions concrètes, au fur et à mesure.
@@ -62,75 +61,93 @@
 
         <section title="Problématique">
             <h2><i class="fas fa-book"></i> Problématique</h2>
-            <div data-markdown align="left">
+            <img src="images/ci_gears.png" width="700"/>
+            <aside class="notes" data-markdown>
+                * Point de départ: situation inconfortable
+                * Objectif:
                 Avoir un environnement d'Intégration Continue:
                 * maintenable
-                * claire
+                * clair
                 * agréable à utiliser
-            </div>
-            <aside class="notes" data-markdown>
-                Point de départ: situation inconfortable
             </aside>
         </section>
 
         <section title="Contexte">
-            <h2><i class="fas fa-check-square"></i> Actions menées</h2>
-            <div class="fragment" data-markdown align="left">
-                * groupe de volontaires de la R&D auto-constitué
-            </div>
-            <div class="fragment" data-markdown align="left">
-                * auto-gestion de nos outils et technologies
-            </div>
-            <div class="fragment" data-markdown align="left">
-                * propriétaires du code, de la qualité de ce qu'on a produit
-            </div>
-            <div class="fragment" data-markdown align="left">
-                * motivation et volonté de bien faire
-            </div>
-            <div class="fragment" data-markdown align="left">
-                * Revue de code des PR en commun
-            </div>
-            <aside class="notes" data-markdown>
-                * gens motivés par cette problématique, volontaires pour projet avance
-                * nos outils sont à notre service et pas le contraire, petites itérations => valeur
-                * fiers de démontrer tous les 15 jours l'aboutissement au reste de la R&D
-                * on prend le temps de devenir "experts" sur le sujet
-                * même niveau de connaissance sur le code, on montée en compétences, reduit SPOK
-            </aside>
+            <section>
+                <h2><i class="fas fa-check-square"></i> Actions menées</h2>
+            </section>
+            <section>
+                <div data-markdown>
+                    ### Groupe de volontaires auto-constitué
+                </div>
+                <img src="images/volontaires.jpg" width="500"/>
+                <aside class="notes" data-markdown>
+                    Un groupe de volontaires de la R&D auto-constitué
+                    * gens motivés par cette problématique, volontaires pour projet avance
+                </aside>
+            </section>
+            <section>
+                <div data-markdown>
+                    ### Auto-gestion de nos outils et technologies
+                </div>
+                <img src="images/jenkins-ci.png" width="200"/>
+                <img src="images/groovy.svg" width="400"/>
+                <img src="images/docker.jpg" width="200"/>
+                <img src="images/gradle.png" width="500"/>
+                <aside class="notes" data-markdown>
+                    * Nos outils sont à notre service et pas le contraire
+                    * Choix de l'efficacité, légèreté, affinité aux outils, petites itérations => valeur
+                </aside>
+            </section>
+            <section>
+                <h3>Propriétaires du code et de sa qualité</h3>
+                <div style="float: left;"><img src="images/intellij.png" height="480" width="440"/></div>
+                <div style="float: right;"><img src="images/fier.jpg" height="480" width="500"/></div>
+                <aside class="notes" data-markdown>
+                    * On se sent propriétaires du code, de la qualité de ce qu'on a produit
+                    * Fiers de démontrer tous les 15 jours l'aboutissement au reste de la R&D
+                </aside>
+            </section>
+            <section>
+                <div data-markdown>
+                    ### Motivation et volonté de bien faire
+                </div>
+                <img src="images/motivation.png" width="700"/>
+                <aside class="notes" data-markdown>
+                    On prend le temps de creuser les technos pour devenir "experts" sur le sujet
+                </aside>
+            </section>
+            <section>
+                <div data-markdown>
+                    ### Revue de code des PR en commun
+                </div>
+                <img src="images/pair_prg_happy.jpg" width="700"/>
+                <aside class="notes" data-markdown>
+                    Même niveau de connaissance sur le code, on montée en compétences, reduit SPOK
+                </aside>
+            </section>
         </section>
 
         <section title="Ce que ça a changé">
             <h2><i class="fas fa-forward"></i> Ce que ça a changé</h2>
-            <div data-markdown>
-                * Liberté de retoquer du code
-                * Plus de pair prg / pair reviewing
-                * Nous laisser les mains libres, ça paye
-            </div>
+            <img src="images/change.jpg" width="700"/>
             <aside class="notes" data-markdown>
-                * On ne demande plus la permission de refactorer du code
+                * On ne demande plus la permission de refactorer du code qui n'est plus approprié
+                * Convaincus des bienfaits du pair prg / pair reviewing
+                * Nos managers se sont rendu compte que nous laisser les mains libres, ça paye
             </aside>
         </section>
 
         <section title="conclusion">
             <section>
                 <h2><i class="fas fa-highlighter"></i> A retenir</h2>
-                <div data-markdown align="left">
-                    Réunissez les conditions pour que l'artisanat logiciel s'exprime.
-
-                    Les équipes auto-gérées en sont une possibilité.
-
-                    <!--                    Mener à bien un projet au périmètre bien défini:-->
-                    <!--                    * Autonomie des outils, méthodos, choix d'implémentation-->
-                    <!--                    * Confiance en la capacité des développeurs à se concentrer sur la valeur-->
-                </div>
+                <img src="images/laptop_and_tools.png" width="850"/>
                 <aside class="notes" data-markdown>
-                    L'artisanat logiciel: bonnes pratiques
-
-                    Pour en profiter, réunissez les conditions pour qu'elles s'expriment.
-
-                    Les équipes auto-gérées en sont une possibilité
-
-                    La créativité des développeurs va pouvoir s'exprimer (dans le bon sens du terme)
+                    * L'artisanat logiciel: série de bonnes pratiques
+                    * Pour en profiter, réunissez les conditions pour qu'elles s'expriment.
+                    * Les équipes auto-gérées en sont une possibilité.
+                    * Toute la créativité des développeurs va pouvoir ainsi s'exprimer (dans le bon sens du terme)
+                    * Laissez les artisans logiciel faire leur travail, ça va bien se passer !
                 </aside>
             </section>
 
